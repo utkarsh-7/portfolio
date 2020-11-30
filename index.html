@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scroll</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    <body>
+        
+    <div id="header"></div>
+        <section>
+        <div id="topnav">
+  <a class="active" href="#home">Home</a>
+  <a class="" href="#links">Links</a>
+  <a class="" href="#contact">Contact</a>
+  <a class="" href="#about">About</a>
+        </div>
+            
+            <script src="control.js"></script>
+            
+            <br>
+        <h2>Utkarsh Nigam</h2>
+        <h3>B.Tech(INFORMATION TECHNOLOGY)</h3>
+            <h3>K.N.I.T SULTANPUR, 2017-21</h3>
+              </br>
+        <p><b>My Projects</b></p>
+       <ul style="list-style-type:square">
+  <li><p><strong>Blogging Web App</strong></p>
+<p>
+<img src="disc.png" alt="Discourse App" style="float:left;width:400px;height:250px;">
+A web app created using Django, which allows you to create a new blog; read, edit and delete existing blogs. It allows multiple users to create new accounts, through which users can create new blogs and read other users existing blogs. The app uses HTML5 and CSS(Bootstrap) for frontend. Python Pillow is used for setting up display picture for user account. It uses MySQL Database using Django ORM(Object Relational Mapping) for storage.
+           </br></br></br></br></br>
+</p></li>
+           </br>
+  <li><p><strong>Bloom Filter</strong></p>
+<p>
+<img src="bloomfr.gif" alt="Bloom filter" style="float:left;width:400px;height:250px;">
+A Bloom filter is a space-efficient probabilistic data structure, that is used to test whether an element is a member of a set. False positive matches are possible, but false negatives are not – in other words, a query returns either "possibly in set" or "definitely not in set".</br>
+    This project presents a simple implementation of bloom filter in C++.
+</p></li>
+</br></br></br></br></br></br></br>
+
+<li><p><strong><a href="https://codepen.io/utkarsh-7" target="_blank">CodePen</a></strong></p>
+<p>
+<img src="codep.jpg" alt="CodePen" style="float:left;width:400px;height:250px;">
+Check out my CodePen profile where I create some frontend applications using HTML, CSS, JavaScript, ReactJS. </br></br></br></br></br></br></br></br></br>
+    
+</p></li>
+  
+</ul>     
+          
+        
+        <br>
+        
+<p>Website currently under development.<br>New Projects and features will be added soon.</p>
+        
+        </section>
+        <script type="text/javascript">
+            const bg = document.getElementById('header');
+            window.addEventListener('scroll',function(){
+                bg.style.backgroundSize = 160 - +window.pageYOffset/12+'%';
+                bg.style.opacity = 1 - +window.pageYOffset/700+'';
+            })
+        </script>
+    </body>
+</html>
