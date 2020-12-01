@@ -1,3 +1,3 @@
 # Portfolio
 
-[Portflio] (https://utkarsh-7.github.io/portfolio)
+[Portflio](https://utkarsh-7.github.io/portfolio)
