@@ -11,7 +11,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(pic.jpg);
+    background: url(images/pic.jpg);
     background-size: 160%;
     background-position: center;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ section p
 }
 body
 {
-    background: url(brown.jpg);
+    background: url(images/brown.jpg);
 }
 
 
